@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1100px;
+    margin: 20px auto;
+}
+
+.imageContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imageContainer img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    width: 200px;
+    padding: 10px;
+}
+
+td:nth-child(2) {
+    width: 600px;
+    text-align: center;
+}
+
+td img {
+    width: 100%;
+    height: auto;
+}
